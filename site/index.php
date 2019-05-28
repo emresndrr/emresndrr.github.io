@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<title>Anasayfa</title>
+
+<script lang="JavaScript">
+		$(document).ready(function(){
+		$("#buton1").click(function(){
+			$("body").css("background-color", "blue");
+		});
+		$("#buton2").click(function(){
+			$("body").css("background-color", "red");
+		});
+		
+		$("#buton3").click(function(){
+			$("body").css("background-color", "yellow");
+		});
+		
+		});
+</script>
+
+<style type="text/css">
+body {
+	background-color: #343434;
+}
+</style>
+<link href="stil.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="sayfa">
+  <div id="logo"><img src="sliderImages/1.jpeg" width="1000" height="80" /></div>
+  <div id="renkicin">
+    <div id="menu"><center>
+	<button id="buton1">mavi</button>
+	<button id="buton2">kırmızı</button>
+	<button id="buton3">sarı</button>
+      <ul class='dd_menu'>
+        <li><a href='index.php'>Anasayfa</a> </li>
+        <li><a href='neden.php'>Neden Boşluktayız</a> </li>
+        <li><a href='yollar.php'>Boşluktan Kurtulma Yolları</a>
+        </li>
+        <li><a href='psikolojik.php'>Psikolojik Olarak Boşluk</a> </li>
+		<li><a href='galeri.php'>Galeri</a> </li>
+		<li><a href='gizli_login.php'>Gizli İçerik</a> </li>
+      </ul>
+      </div>
+  </div>
+  <div class="icerik">
+    <div id="sagilk">
+      <div id="ilk"><img src="sliderImages/1.jpeg" width="170" height="100" border="0" usemap="#Map" />
+        <map name="Map" id="Map">
+          
+        </map>
+      </div>
+    <div id="orta"><img src="sliderImages/1.jpeg" width="170" height="100" border="0" usemap="#Map2" />
+      <map name="Map2" id="Map2">
+        
+      </map>
+    </div>
+    <div id="alt"><img src="sliderImages/1.jpeg" width="170" height="100" border="0" usemap="#Map3" />
+      <map name="Map3" id="Map3">
+        
+      </map>
+    </div>
+</div>
+    <div class="solsidebar"><img src="sliderImages/1.jpeg" width="150" height="450" /></div>
+    <div id="icerikrenk">
+      <div id="resimalan">
+      Doldurulması çok zor olanları insan ruhuna aşırı derecede zarar verebilen boşluklar, ruh evreninin kara delikleridir. hiç bir şeyi, kimseyi umursamamak kötülüğe ya da iyiliğe kayıtsız kalmaktır. şaşırmadan bakmaya başlamak, kabullenip nefret etmektir.
+yaşanılan ülkeden, çevreden, çevredeki insanlardan, yapılardan, hava durumundan, gerçekleşen değişik olaylardan ve bunların birikmesinden sonra boşluklar yavaş yavaş ortaya çıkar. sevinemez, üzülemez mal gibi bir şey olursunuz.
+    </div>
+</div>
+  </div>
+  <div id="footer">Anasayfa</div>
+</div>
+</body>
+</html>
